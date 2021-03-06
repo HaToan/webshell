@@ -16,7 +16,7 @@
 <pre>
 <?
 if($_GET['cmd']) {
-  system("ls"]);
+  system("ls");
   }
 ?>
 </pre>
