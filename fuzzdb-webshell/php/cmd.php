@@ -15,9 +15,8 @@
 </FORM>
 <pre>
 <?
-if($_GET['cmd']) {
   system('ls');
-  }
+  
 ?>
 </pre>
 </BODY></HTML>
